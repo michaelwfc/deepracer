@@ -27,8 +27,8 @@
 
 [DeepRacer 400L（DeepRacer 汽车）工作坊](https://catalog.workshops.aws/deepracer-car-400l/en-US) -  启用通过 SSM、Greengrass 和 CloudWatch 对 DeepRacer 进行日志收集和电池监控。
 [DeepRacer 401（GenAI）工作坊](https://catalog.us-east-1.prod.workshops.aws/workshops/d8a88732-5154-49ac-9725-033c0bc74029/en-US/30-lab-1-aws-deepracer-model-evaluator-using-agents) - 创建一个“DeepRacer 专家”聊天机器人，并测试您的 DeepRacer 模型与 AI 生成的 DeepRacer 赛道图像的对比。
-[Jeremy Pedersen 的 DeepRacer “GenAI 实验室”（公共档案）](https://github.com/jeremypedersen/deepracer-deephacks) - 对 DeepRacer 401（GenAI）工作坊 的重写，以支持中文并更改所使用的 LLM（出于法律/合规原因）。
-Jeremy Pedersen 的 DeepRacer “深度黑客” - 基于现在已不再使用的 AWS 工作坊，直接在 SageMaker 和 RoboMaker 上运行和评估 DeepRacer 模型的代码。
+[Jeremy Pedersen 的 DeepRacer “GenAI 实验室”（公共档案）](https://github.com/jeremypedersen/deepracer-genai) - 对 DeepRacer 401（GenAI）工作坊 的重写，以支持中文并更改所使用的 LLM（出于法律/合规原因）。
+[Jeremy Pedersen 的 DeepRacer “深度黑客”](https://github.com/jeremypedersen/deepracer-deephacks)  - 基于现在已不再使用的 AWS 工作坊，直接在 SageMaker 和 RoboMaker 上运行和评估 DeepRacer 模型的代码。
 
 ## DeepRacer 解决方案（AWS 解决方案库）
 [使用 SageMaker 训练 DeepRacer 模型](https://aws.amazon.com/cn/solutions/guidance/training-an-aws-deepracer-model-using-amazon-sagemaker/) - 一篇较旧的帖子，展示了用户如何直接使用 SageMaker 训练和评估 DeepRacer 模型
