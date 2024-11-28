@@ -56,6 +56,7 @@ DREM（DeepRacer 事件管理）解决方案设置指南 - 向用户展示如何
 ## AWS 和社区 DeepRacer GitHub 页面
 [官方 AWS DeepRacer GitHub 仓库](https://github.com/aws-deepracer/) - 所有（开源）DeepRacer 软件堆栈代码的集合。大多数代码并不是以立即可用的形式提供。请查看 DeepRacer 社区的 GitHub 代码（见下方链接）。
 [DeepRacer 社区的 GitHub 仓库](https://github.com/aws-deepracer-community) - 用于在 *任何地方* 运行 DeepRacer 训练和评估任务的代码，以及来自之前 DeepRacer 联赛官方比赛的数据、日志分析代码等。
+
 特别有用：[所有 DeepRacer 赛道名称的列表](https://github.com/aws-deepracer-community/deepracer-simapp/blob/master/tracks.txt) （用于日志分析等所需的 .npy 文件）
 
 ## 学术论文

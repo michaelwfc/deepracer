@@ -85,3 +85,17 @@ reward += speed / 3.0
 I was expecting good results, so I was surprised when the models performed badly. Instead of speeding around the track, the models were flying off it! Perhaps the reward for speed was overwhelming the other rewards for staying on the track and/or staying near the center.
 
 I ended up throwing these models away to go back to the drawing board.
+
+
+## custimize_and_follow_the_ideal_route 
+- score high, if the car is close to a hand crafted more or less ideal line
+  [Enhancing Your AWS DeepRacer Performance with Gradient Descent Algorithm and Personalized Waypoints](https://medium.com/@yangkewenvigorous/enhancing-your-aws-deepracer-performance-with-gradient-descent-algorithm-and-personalized-waypoints-2e5db6ceab63)
+
+## using_steering_direction
+   using the steering direction of the car (which is available as a parameter in the scoring function during training
+  [Falk Tandetzky-AWS Deepracer — How to train a model in 15 minutes](https://medium.com/twodigits/aws-deepracer-how-to-train-a-model-in-15-minutes-3a0dca1175fb)
+
+  ### Idea: 
+  Draw a circle with a fixed radius around the car. Take the intersection of this circle with the central line. Aim for this point. I.e. The score is highest if the steering direction is such that the front wheels point there. The more it deviates the lower the score.
+
+
